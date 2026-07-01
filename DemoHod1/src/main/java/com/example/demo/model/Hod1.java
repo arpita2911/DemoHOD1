@@ -37,12 +37,12 @@ public class Hod1 {
 		this.address = dto.getAddress();
 		this.email = dto.getEmail();
 		this.exp = dto.getExp();
-		this.salary = dto.getSalary();	
+		this.salary = dto.getSalary();
 		this.password = dto.getPassword();
 		this.mob = dto.getMob();
 		this.name = dto.getName();
 		this.subjects = dto.getSubjects();
-		this.username=dto.getName()+dto.getMob().subSequence(0, 4);
+		this.username = dto.getName() + dto.getMob().subSequence(0, 4);
 	}
 
 }
